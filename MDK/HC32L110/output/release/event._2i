@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0+ -D__EVAL -g -O2 --apcs=interwork --split_sections -I ..\Code\ap\inc -I ..\Code\bsp -I ..\Code\bsp\HC32L110\inc -I ..\Code\lib_drv\driver\inc -I ..\Code\lib_drv\mcu\common -I ..\Code\modules -I ..\Code\modules\key\inc -I ..\Code\modules\pwrManager\inc -I ..\Code\modules\radio\inc -I ..\Code\sys -I ..\Code\sys\qep\inc
+-I.\RTE\_HD_RF_Code
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+-IC:\Keil_v5\ARM\PACK\HDSC\HC32L110\1.0.3\Device\Include
+-D__UVISION_VERSION="529" -D_RTE_
+-o .\output\release\event.o --omf_browse .\output\release\event.crf --depend .\output\release\event.d --feedback ".\output\release\RfCode.fed" "..\Code\sys\event.c"

@@ -1,0 +1,456 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Thu Jun 30 15:11:36 2022
+;VERSION 0.2
+;FILE adc.o
+Adc_ClrAccResult <= USED 0
+Adc_ClrContIrqState <= USED 0
+Adc_ClrHhtIrqState <= USED 0
+Adc_ClrIrqLltState <= USED 0
+Adc_ClrRegIrqState <= USED 0
+Adc_CmpCfg <= USED 0
+Adc_ConfigContMode <= USED 0
+Adc_ConfigIrq <= USED 0
+Adc_ConfigNormMode <= USED 0
+Adc_ConfigScanMode <= USED 0
+Adc_DeInit <= USED 0
+Adc_Disable <= USED 0
+Adc_DisableIrq <= USED 0
+Adc_Enable <= USED 0
+Adc_EnableIrq <= USED 0
+Adc_GetAccResult <= USED 0
+Adc_GetCH8Result <= USED 0
+Adc_GetIrqState <= USED 0
+Adc_GetResult <= USED 0
+Adc_GetScanResult <= USED 0
+Adc_Init <= USED 0
+Adc_PollBusyState <= USED 0
+Adc_SetVref <= USED 0
+Adc_Start <= USED 0
+Adc_Stop <= USED 0
+__asm___5_adc_c_110c0d7f____REV16 <= USED 0
+__asm___5_adc_c_110c0d7f____REVSH <= USED 0
+;FILE adt.o
+Adt_AosTrigConfig <= USED 0
+Adt_CHxXPortConfig <= USED 0
+Adt_ClearBrakePort <= USED 0
+Adt_ClearCount <= USED 0
+Adt_ClearHwCaptureA <= USED 0
+Adt_ClearHwCaptureB <= USED 0
+Adt_ClearHwClear <= USED 0
+Adt_ClearHwCntDwn <= USED 0
+Adt_ClearHwCntUp <= USED 0
+Adt_ClearHwStart <= USED 0
+Adt_ClearHwStop <= USED 0
+Adt_ClearIrqFlag <= USED 0
+Adt_ClearPeriodBuf <= USED 0
+Adt_ClearPortBrakeFlag <= USED 0
+Adt_ClearSameBrakeFlag <= USED 0
+Adt_ClearValueBuf <= USED 0
+Adt_ConfigDT <= USED 0
+Adt_ConfigHwCaptureA <= USED 0
+Adt_ConfigHwCaptureB <= USED 0
+Adt_ConfigHwClear <= USED 0
+Adt_ConfigHwCntDwn <= USED 0
+Adt_ConfigHwCntUp <= USED 0
+Adt_ConfigHwStart <= USED 0
+Adt_ConfigHwStop <= USED 0
+Adt_ConfigIrq <= USED 0
+Adt_ConfigZMask <= USED 0
+Adt_DeInit <= USED 0
+Adt_Disable1Cfg <= USED 0
+Adt_Disable3Cfg <= USED 0
+Adt_DisableHwClear <= USED 0
+Adt_DisableHwStart <= USED 0
+Adt_DisableHwStop <= USED 0
+Adt_EnableBrakePort <= USED 0
+Adt_EnableHwClear <= USED 0
+Adt_EnableHwStart <= USED 0
+Adt_EnableHwStop <= USED 0
+Adt_EnableValueBuf <= USED 0
+Adt_GetCaptureBuf <= USED 0
+Adt_GetCaptureValue <= USED 0
+Adt_GetCntState <= USED 0
+Adt_GetIrqFlag <= USED 0
+Adt_GetPortBrakeFlag <= USED 0
+Adt_GetSameBrakeFlag <= USED 0
+Adt_GetSwSyncState <= USED 0
+Adt_Init <= USED 0
+Adt_IrqTrigConfig <= USED 0
+Adt_PortTrigConfig <= USED 0
+Adt_PwmDitherConfig <= USED 0
+Adt_SetCompareValue <= USED 0
+Adt_SetCount <= USED 0
+Adt_SetDTDA <= USED 0
+Adt_SetDTUA <= USED 0
+Adt_SetPeriod <= USED 0
+Adt_SetPeriodBuf <= USED 0
+Adt_SetValidPeriod <= USED 0
+Adt_StartCount <= USED 0
+Adt_StopCount <= USED 0
+Adt_SwSyncClear <= USED 0
+Adt_SwSyncStart <= USED 0
+Adt_SwSyncStop <= USED 0
+__asm___5_adt_c_698c090c____REV16 <= USED 0
+__asm___5_adt_c_698c090c____REVSH <= USED 0
+;FILE app_main.o
+EntryDeepSleepMode <= USED 0
+;FILE app_radio.o
+CompareRfID <= USED 0
+HubRfDeleteDevMsgHandle <= USED 0
+HubRfFireAlarmMsgHandle <= USED 0
+HubRfHandleMsg <= USED 0
+HubRfHeartbeatMsgHandle <= USED 0
+HubRfPairMsgHandle <= USED 0
+HubRfSearchDevMsgHandle <= USED 0
+HubRfWakeupDevMsgHandle <= USED 0
+HubSendAckMsg <= USED 0
+IntranetPairMsgHandle <= USED 0
+IntranetPollingCancelAlarm <= USED 0
+IntranetPollingForwardAlarm <= USED 0
+IntranetPollingForwardTest <= USED 0
+IntranetRadioTestModeEvent <= USED 0
+IntranetRfHandleMsg <= USED 0
+IntranetSendAckMsg <= USED 0
+IntranetSetRadioParamer <= USED 0
+PollingWaitHeartBeatAckMode <= USED 0
+RfHandleMsg <= USED 0
+;FILE app_uart.o
+GetUartApiTag <= USED 0
+PollingUartRxTimeout <= USED 0
+SetUartTxBufBuffer <= USED 0
+;FILE board.o
+McuStop <= USED 0
+__asm___7_board_c_McuStop____REV16 <= USED 0
+__asm___7_board_c_McuStop____REVSH <= USED 0
+;FILE bt.o
+Bt_Cnt16Get <= USED 0
+Bt_Cnt32Get <= USED 0
+Bt_Cnt32Set <= USED 0
+Bt_DisableIrq <= USED 0
+Bt_GetIntFlag <= USED 0
+Bt_Stop <= USED 0
+__asm___4_bt_c_e39a3564____REV16 <= USED 0
+__asm___4_bt_c_e39a3564____REVSH <= USED 0
+;FILE clk.o
+Clk_DeInit <= USED 0
+Clk_DebugClk <= USED 0
+Clk_GetClkRdy <= USED 0
+Clk_GetPeripheralGate <= USED 0
+Clk_Init <= USED 0
+Clk_SetFunc <= USED 0
+Clk_SetRCLFreq <= USED 0
+Clk_SetRCL_StableTime <= USED 0
+Clk_SetRTCAdjustClkFreq <= USED 0
+Clk_SetSource <= USED 0
+Clk_SetXTH_StableTime <= USED 0
+Clk_SetXTLDrive <= USED 0
+Clk_SetXTL_StableTime <= USED 0
+Clk_SwitchTo <= USED 0
+Clk_SysTickSkewGet <= USED 0
+Clk_SysTickStcalibGet <= USED 0
+__asm___5_clk_c_381024b2____REV16 <= USED 0
+__asm___5_clk_c_381024b2____REVSH <= USED 0
+;FILE crc.o
+CRC16_Check16 <= USED 0
+CRC16_Check32 <= USED 0
+CRC16_Check8 <= USED 0
+CRC16_Get16 <= USED 0
+CRC16_Get32 <= USED 0
+CRC16_Get8 <= USED 0
+__asm___5_crc_c_204b0744____REV16 <= USED 0
+__asm___5_crc_c_204b0744____REVSH <= USED 0
+;FILE ddl.o
+DDL_WAIT_LOOP_HOOK <= USED 0
+Debug_Output <= USED 0
+Debug_UartInit <= USED 0
+__asm___5_ddl_c_Log2____REV16 <= USED 0
+__asm___5_ddl_c_Log2____REVSH <= USED 0
+__backspace <= USED 0
+_ttywrch <= USED 0
+delay100us <= USED 0
+delay1ms <= USED 0
+;FILE debug.o
+remove_path <= USED 0
+;FILE event.o
+Event_Handler <= USED 0
+Event_Init <= USED 0
+Event_Registere <= USED 0
+Event_Set <= USED 0
+;FILE flash.o
+Flash_ChipErase <= USED 0
+Flash_ClearIntFlag <= USED 0
+Flash_DisableIrq <= USED 0
+Flash_EnableIrq <= USED 0
+Flash_GetIntFlag <= USED 0
+Flash_Init <= USED 0
+Flash_WriteByte <= USED 0
+Flash_WriteHalfWord <= USED 0
+__asm___7_flash_c_b85eb122____REV16 <= USED 0
+__asm___7_flash_c_b85eb122____REVSH <= USED 0
+;FILE gpio.o
+Gpio_DisableIrq <= USED 0
+Gpio_SetCtrlExt <= USED 0
+Gpio_SetExtClkSel <= USED 0
+Gpio_SetSignalSource <= USED 0
+Gpio_SetSsnSel <= USED 0
+__asm___6_gpio_c_abe2a7d0____REV16 <= USED 0
+__asm___6_gpio_c_abe2a7d0____REVSH <= USED 0
+;FILE hal_adc.o
+__asm___9_hal_adc_c_124a296d____REV16 <= USED 0
+__asm___9_hal_adc_c_124a296d____REVSH <= USED 0
+hal_adc_init <= USED 0
+hal_adc_read <= USED 0
+hal_adc_read_vol <= USED 0
+;FILE hal_flash.o
+__asm___11_hal_flash_c_65ff6139____REV16 <= USED 0
+__asm___11_hal_flash_c_65ff6139____REVSH <= USED 0
+;FILE hal_gpio.o
+__asm___10_hal_gpio_c_cc08d92c____REV16 <= USED 0
+__asm___10_hal_gpio_c_cc08d92c____REVSH <= USED 0
+;FILE hal_rtc.o
+__asm___9_hal_rtc_c_1fd221b3____REV16 <= USED 0
+__asm___9_hal_rtc_c_1fd221b3____REVSH <= USED 0
+;FILE hal_subghz.o
+CMT2300A_ReadFifo <= USED 0
+CMT2300A_WriteFifo <= USED 0
+__asm___12_hal_subghz_c_9640cec9____REV16 <= USED 0
+__asm___12_hal_subghz_c_9640cec9____REVSH <= USED 0
+cmt_spi3_delay_us <= USED 0
+cmt_spi3_read_fifo <= USED 0
+cmt_spi3_write_fifo <= USED 0
+;FILE hal_tick.o
+__asm___10_hal_tick_c_26ca701d____REV16 <= USED 0
+__asm___10_hal_tick_c_26ca701d____REVSH <= USED 0
+;FILE hal_tim_.o
+__asm___10_hal_tim__c_47fd3761____REV16 <= USED 0
+__asm___10_hal_tim__c_47fd3761____REVSH <= USED 0
+;FILE hal_uart.o
+HalUartRead <= USED 0
+__asm___10_hal_uart_c_6e2d7bdb____REV16 <= USED 0
+__asm___10_hal_uart_c_6e2d7bdb____REVSH <= USED 0
+;FILE hal_watchdog.o
+__asm___14_hal_watchdog_c____REV16 <= USED 0
+__asm___14_hal_watchdog_c____REVSH <= USED 0
+;FILE i2c.o
+I2C_ClearFunc <= USED 0
+I2C_ClearIrq <= USED 0
+I2C_DeInit <= USED 0
+I2C_GetIrq <= USED 0
+I2C_GetState <= USED 0
+I2C_Init <= USED 0
+I2C_ReadByte <= USED 0
+I2C_SetBaud <= USED 0
+I2C_SetFunc <= USED 0
+I2C_WriteByte <= USED 0
+I2C_WriteSlaveAddr <= USED 0
+__asm___5_i2c_c_e75428b4____REV16 <= USED 0
+__asm___5_i2c_c_e75428b4____REVSH <= USED 0
+;FILE interrupts_hc32l110.o
+__asm___21_interrupts_hc32l110_c_6a07efb1____REV16 <= USED 0
+__asm___21_interrupts_hc32l110_c_6a07efb1____REVSH <= USED 0
+;FILE key.o
+GetKeyApiTag <= USED 0
+GetKeyType <= USED 0
+SetKeyClickFlag <= USED 0
+;FILE list.o
+List_Add <= USED 0
+List_Del <= USED 0
+List_Foreach <= USED 0
+;FILE lpm.o
+Lpm_Config <= USED 0
+Lpm_GotoLpmMode <= USED 0
+__asm___5_lpm_c_6b38eb50____REV16 <= USED 0
+__asm___5_lpm_c_6b38eb50____REVSH <= USED 0
+;FILE lpt.o
+Lpt_ARRSet <= USED 0
+Lpt_ClearIntFlag <= USED 0
+Lpt_Cnt16Get <= USED 0
+Lpt_DisableIrq <= USED 0
+Lpt_EnableIrq <= USED 0
+Lpt_GetIntFlag <= USED 0
+Lpt_Init <= USED 0
+Lpt_Run <= USED 0
+Lpt_Stop <= USED 0
+__asm___5_lpt_c_313c3499____REV16 <= USED 0
+__asm___5_lpt_c_313c3499____REVSH <= USED 0
+;FILE lpuart.o
+LPUart_CheckEvenOrOdd <= USED 0
+LPUart_DisableIrq <= USED 0
+LPUart_EnableFunc <= USED 0
+LPUart_EnableIrq <= USED 0
+LPUart_GetBaudRate <= USED 0
+LPUart_GetRb8 <= USED 0
+LPUart_GetStatus <= USED 0
+LPUart_Init <= USED 0
+LPUart_ReceiveData <= USED 0
+LPUart_SelSclk <= USED 0
+LPUart_SelSclkPrs <= USED 0
+LPUart_SendData <= USED 0
+LPUart_SetBaudRate <= USED 0
+LPUart_SetMMDOrCk <= USED 0
+LPUart_SetMode <= USED 0
+LPUart_SetMultiMode <= USED 0
+LPUart_SetSaddr <= USED 0
+LPUart_SetSaddrEn <= USED 0
+LPUart_SetTb8 <= USED 0
+__asm___8_lpuart_c_79c5a38c____REV16 <= USED 0
+__asm___8_lpuart_c_79c5a38c____REVSH <= USED 0
+;FILE lvd.o
+Lvd_ClearIrq <= USED 0
+Lvd_DeInit <= USED 0
+Lvd_Disable <= USED 0
+Lvd_DisableIrq <= USED 0
+Lvd_Enable <= USED 0
+Lvd_EnableIrq <= USED 0
+Lvd_GetIntrStat <= USED 0
+Lvd_Init <= USED 0
+__asm___5_lvd_c_0635873a____REV16 <= USED 0
+__asm___5_lvd_c_0635873a____REVSH <= USED 0
+;FILE main.o
+;FILE pca.o
+Pca_CapData16Get <= USED 0
+Pca_CapData16Set <= USED 0
+Pca_CapDataHSet <= USED 0
+Pca_CapDataLSet <= USED 0
+Pca_CapModConfig <= USED 0
+Pca_ClearCntIntFlag <= USED 0
+Pca_ClearIntFlag <= USED 0
+Pca_Cnt16Get <= USED 0
+Pca_Cnt16Set <= USED 0
+Pca_DisableCntIrq <= USED 0
+Pca_DisableIrq <= USED 0
+Pca_EnableCntIrq <= USED 0
+Pca_EnableIrq <= USED 0
+Pca_GetCmpHighFlag <= USED 0
+Pca_GetCntIntFlag <= USED 0
+Pca_GetIntFlag <= USED 0
+Pca_Init <= USED 0
+Pca_Run <= USED 0
+Pca_Stop <= USED 0
+__asm___5_pca_c_e00dc920____REV16 <= USED 0
+__asm___5_pca_c_e00dc920____REVSH <= USED 0
+;FILE polling.o
+TmrGetHandleByEvent <= USED 0
+TmrGetMbs <= USED 0
+TmrResetCurCnt <= USED 0
+TmrSetCtx <= USED 0
+TmrSetCurCnt <= USED 0
+;FILE qep_port.o
+;FILE qeq_fifo.o
+QEQueue_postLIFO <= USED 0
+;FILE qfsm_dis.o
+;FILE radio_2300a.o
+RF_GetInterruptFlags <= USED 0
+RF_GetStatus <= USED 0
+RF_Process <= USED 0
+RF_SetStatus <= USED 0
+RF_StartRx <= USED 0
+RF_StartTx <= USED 0
+;FILE radio_2300a_driver.o
+CMT2300A_ClearRxFifo <= USED 0
+CMT2300A_ClearTxFifo <= USED 0
+CMT2300A_ConfigGpio <= USED 0
+CMT2300A_ConfigInterrupt <= USED 0
+CMT2300A_ConfigTxDin <= USED 0
+CMT2300A_DutyCycle <= USED 0
+CMT2300A_EnableAfc <= USED 0
+CMT2300A_EnableFifoMerge <= USED 0
+CMT2300A_EnableLfoscOutput <= USED 0
+CMT2300A_EnableReadFifo <= USED 0
+CMT2300A_EnableRxFifoAutoClear <= USED 0
+CMT2300A_EnableTxDin <= USED 0
+CMT2300A_EnableTxDinInvert <= USED 0
+CMT2300A_EnableWriteFifo <= USED 0
+CMT2300A_GetRssiCode <= USED 0
+CMT2300A_GetRssiDBm <= USED 0
+CMT2300A_GoRFS <= USED 0
+CMT2300A_GoRx <= USED 0
+CMT2300A_GoStby <= USED 0
+CMT2300A_GoTFS <= USED 0
+CMT2300A_GoTx <= USED 0
+CMT2300A_IsExist <= USED 0
+CMT2300A_RestoreFifo <= USED 0
+CMT2300A_SetAfcOvfTh <= USED 0
+CMT2300A_SetFifoThreshold <= USED 0
+CMT2300A_SetFrequencyChannel <= USED 0
+CMT2300A_SetFrequencyStep <= USED 0
+CMT2300A_SetInterruptPolar <= USED 0
+CMT2300A_SetPayloadLength <= USED 0
+;FILE reset.o
+Reset_Clear <= USED 0
+Reset_GetCause <= USED 0
+Reset_SetPeripheralReset <= USED 0
+__asm___7_reset_c_b9409d46____REV16 <= USED 0
+__asm___7_reset_c_b9409d46____REVSH <= USED 0
+;FILE rtc.o
+Rtc_DeInit <= USED 0
+Rtc_GetAlarmTime <= USED 0
+Rtc_GetIrqStatus <= USED 0
+Rtc_RDStatus <= USED 0
+Rtc_ReadDateTime <= USED 0
+Rtc_Set1HzMode <= USED 0
+Rtc_SetAlarmTime <= USED 0
+Rtc_SetCompCr <= USED 0
+__asm___5_rtc_c_6634444d____REV16 <= USED 0
+__asm___5_rtc_c_6634444d____REVSH <= USED 0
+;FILE sceneinstance.o
+;FILE spi.o
+Spi_DeInit <= USED 0
+Spi_GetStatus <= USED 0
+Spi_Init <= USED 0
+Spi_ReceiveData <= USED 0
+Spi_SendData <= USED 0
+Spi_SetCS <= USED 0
+__asm___5_spi_c_0859d193____REV16 <= USED 0
+__asm___5_spi_c_0859d193____REVSH <= USED 0
+;FILE startup_hc32l110.o
+;FILE system.o
+;FILE system_hc32l110.o
+__asm___17_system_hc32l110_c_5d646a67____REV16 <= USED 0
+__asm___17_system_hc32l110_c_5d646a67____REVSH <= USED 0
+;FILE trim.o
+Trim_CalCntGet <= USED 0
+Trim_CalConSet <= USED 0
+Trim_ClearIntFlag <= USED 0
+Trim_DisableIrq <= USED 0
+Trim_EnableIrq <= USED 0
+Trim_GetIntFlag <= USED 0
+Trim_Init <= USED 0
+Trim_RefCntGet <= USED 0
+Trim_RefConSet <= USED 0
+Trim_Run <= USED 0
+Trim_Stop <= USED 0
+__asm___6_trim_c_f1dfa583____REV16 <= USED 0
+__asm___6_trim_c_f1dfa583____REVSH <= USED 0
+;FILE uart.o
+Uart_CheckEvenOrOdd <= USED 0
+Uart_GetRb8 <= USED 0
+Uart_ReceiveData <= USED 0
+Uart_SetSaddr <= USED 0
+Uart_SetSaddrEn <= USED 0
+Uart_SetTb8 <= USED 0
+__asm___6_uart_c_4300501e____REV16 <= USED 0
+__asm___6_uart_c_4300501e____REVSH <= USED 0
+;FILE vc.o
+Vc_ChannelDeInit <= USED 0
+Vc_ChannelInit <= USED 0
+Vc_ClearIrq <= USED 0
+Vc_ConfigIrq <= USED 0
+Vc_DisableChannel <= USED 0
+Vc_DisableFilter <= USED 0
+Vc_DisableIrq <= USED 0
+Vc_EnableChannel <= USED 0
+Vc_EnableFilter <= USED 0
+Vc_EnableIrq <= USED 0
+Vc_GeneralDeInit <= USED 0
+Vc_GeneralInit <= USED 0
+Vc_GetStat <= USED 0
+__asm___4_vc_c_74507cd9____REV16 <= USED 0
+__asm___4_vc_c_74507cd9____REVSH <= USED 0
+;FILE wdt.o
+Wdt_Feed <= USED 0
+Wdt_Init <= USED 0
+Wdt_ReadWdtValue <= USED 0
+Wdt_ReadwdtStatus <= USED 0
+Wdt_WriteWdtLoad <= USED 0
+__asm___5_wdt_c_e74e8696____REV16 <= USED 0
+__asm___5_wdt_c_e74e8696____REVSH <= USED 0

@@ -1,0 +1,10 @@
+.\output\release\pga.o: ..\..\Code\lib_drv\BAT32G133\driver\src\pga.c
+.\output\release\pga.o: ..\..\Code\lib_drv\BAT32G133\mcu\BAT32G133.h
+.\output\release\pga.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h
+.\output\release\pga.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\pga.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\output\release\pga.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\release\pga.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\release\pga.o: C:\Keil_v5\ARM\PACK\Cmsemicon\BAT32G133\1.1.3\Device\Include\system_BAT32G133.h
+.\output\release\pga.o: ..\..\Code\lib_drv\BAT32G133\driver\inc\pga.h
+.\output\release\pga.o: ..\..\Code\lib_drv\BAT32G133\driver\inc\userdefine.h

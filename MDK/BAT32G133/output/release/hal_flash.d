@@ -1,0 +1,10 @@
+.\output\release\hal_flash.o: ..\..\Code\bsp\Bat32G133\src\hal_flash.c
+.\output\release\hal_flash.o: ..\..\Code\bsp\Bat32G133\src\../inc/hal_flash.h
+.\output\release\hal_flash.o: ..\..\Code\lib_drv\BAT32G133\mcu\base_types.h
+.\output\release\hal_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\release\hal_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\release\hal_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\release\hal_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\release\hal_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\output\release\hal_flash.o: ..\..\Code\lib_drv\BAT32G133\driver\inc\flash.h
+.\output\release\hal_flash.o: ..\..\Code\lib_drv\BAT32G133\driver\inc\userdefine.h
