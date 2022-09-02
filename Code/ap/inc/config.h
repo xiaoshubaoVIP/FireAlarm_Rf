@@ -1,7 +1,7 @@
 #ifndef __CONFIG_H__
 #define __CONFIG_H__
 
-#define SoftWareVer  "[FireAlarm](New_Driver_3th) Ver=1.1.1"
+#define SoftWareVer  "[FireAlarm](New_Driver_3th) Ver=1.1.2"
 
 
 //#define SUPPORT_HC32L100
